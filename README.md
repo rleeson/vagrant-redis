@@ -4,4 +4,4 @@ Vagrant setup for the latest stable version of Redis on an Ubuntu Xenial instanc
 
 ## Hyper-V Setup
 
-There are a batch file and PowerShell script to manage setup of Hyper-V and forwarding of the default Redis port 6379 to the matching localhost port. Since Vagrant cannot currently configure Hyper-V networking, you must choose the switch manually after running the batch file.
+There are a batch file and PowerShell script to manage setup of Hyper-V and forwarding of the default Redis port 6379 to the matching localhost port. Since Vagrant cannot currently configure Hyper-V networking, you must choose the switch manually after running the batch file, which has internet access for package installation.  The default switch (1) provides NAT and can be used to download packages.

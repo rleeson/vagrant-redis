@@ -27,3 +27,4 @@ goto :end
 goto :eof
 
 :end
+vagrant reload
